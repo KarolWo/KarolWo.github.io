@@ -1,0 +1,59 @@
+body{
+  background-color: black;
+}
+
+ header{
+   background-color:  rgb(188, 3, 43);
+   height: 100px;
+
+     }
+
+#section1{
+background-color: rgb(188, 3, 43);
+width: 500px;
+height: 400px;
+
+
+}
+
+#list{
+  color:white;
+  font-size: 25px;
+  text-align: left;
+}
+
+#Awards{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#Titel{
+text-align: center;
+ color: white;
+  font-size: 50px;
+}
+
+#MJ2{
+  position: relative;
+  bottom: 400px;
+  left: 350px;
+}
+
+p{
+color: white;
+position: relative;
+left: 800px;
+bottom: 350px;
+}
