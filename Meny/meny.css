@@ -1,0 +1,141 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body{
+font-style: italic;
+background-color: white;
+font-size: 20px;
+color: white;
+
+
+
+
+
+}
+
+.box{
+width: 100%;
+border: 1px solid none;
+float: left;
+background-color: #990f02;
+opacity: .8;
+
+}
+
+.box ul li{
+  width: 120px;
+  float: left;
+  margin: 10px;
+  text-align: center;
+  position: center;
+
+}
+.box ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.box ul li:hover{
+
+  background: #541e1b;
+}
+
+.box ul li a:hover{
+  color: white;
+}
+
+.oppettider{
+  width: 250px;
+  height: 30%;
+  background-color: #60100b;
+  opacity: 0.9;
+  padding: 30px;
+  position: fixed;
+  right: 100px;
+  top: 100px;
+
+}
+.oppettider h1{
+text-align: center;
+font-size: 30px;
+text-transform: uppercase;
+color: white;
+
+}
+.list{
+color: white;
+font-size: 25px;
+padding: 10px;
+
+
+}
+
+footer{
+background-color: #990f02;
+position: absolute;
+width: 100%;
+bottom: 0;
+height: 66px;
+opacity: 70%;
+color: white;
+opacity: 1;
+}
+.buffe{
+  position: relative;
+  left:200px;
+  top:100px;
+}
+
+.lunchbuffe{
+background-color: #7a1712;
+width: 800px;
+height: 150px;
+position: relative;
+top: 90px;
+left: 200px;
+}
+
+.lunchbuffe h2{
+  text-align: center;
+  font-size: 60px;
+}
+.lunchbuffe h3{
+  text-align: center;
+  margin-top: 10px;
+}
+.logo img{
+  position: relative;
+  bottom: 480px;
+  width: 170px;
+  left: 40px;
+}
+
+
+
+@media only screen and (max-width:600px) {
+
+body{
+  background-color: white;
+}
+.oppettider{
+  display: none;
+}
+.buffe img{
+position: relative;
+right: 200px;
+width: 600px;
+}
+.lunchbuffe{
+position: relative;
+width: 600px;
+left:0;
+top:90px;
+
+
+}
+
+
+ }
