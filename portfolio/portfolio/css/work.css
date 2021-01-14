@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header .navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    background-color: .;
+
+}
+
+
+.namn a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 17px;
+    margin-left: 50px;
+}
+
+.menu ul {
+    margin-left: 1033px;
+    float: right;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin-right: 35px;
+    cursor: pointer;
+    align-items: center;
+
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+  color:black;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.app1h1 h1{
+  font-weight: 700;
+    left: 550px;
+    position: relative;
+    font-size: 35px;
+    width: 162px;
+    color: #000;
+    top: 650px;
+}
+.app1 img{
+position: relative;
+left: 550px;
+top: 40px;
+}
+.oversikt h1{
+  font-weight: 400;
+      left: 550px;
+      position: relative;
+      font-size: 23px;
+      width: 162px;
+      color: #000;
+      top: 150px;
+}
+.oversikt p{
+  font-weight: 400;
+    left: 550px;
+    position: relative;
+    font-size: 13px;
+    width: 960px;
+    color: #000;
+    top: 160px;
+  line-height: 25px;
+}
+.problem h1{
+  font-weight: 400;
+      left: 550px;
+      position: relative;
+      font-size: 23px;
+      width: 960px;
+      color: #000;
+      top: 185px;
+
+}
+.problem p{
+
+    font-weight: 400;
+    left: 550px;
+    position: relative;
+    font-size: 13px;
+    width: 960px;
+    color: #000;
+    top: 195px;
+    line-height: 25px;
+
+}
+.produktvision h1{
+  font-weight: 400;
+      left: 550px;
+      position: relative;
+      font-size: 23px;
+      width: 960px;
+      color: #000;
+      top: 210px;
+
+}
+.produktvision p{
+
+    font-weight: 400;
+    left: 550px;
+    position: relative;
+    font-size: 13px;
+    width: 960px;
+    color: #000;
+        top: 215px;
+    line-height: 25px;
+
+}
+#new1{
+  font-weight: 600;
+}
+
+.design h1{
+  font-weight: 400;
+      left: 550px;
+      position: relative;
+      font-size: 23px;
+      width: 960px;
+      color: #000;
+      top: 225px;
+
+}
+.app4 img{
+  position: relative;
+  left: 550px;
+  top: 240px;
+}
