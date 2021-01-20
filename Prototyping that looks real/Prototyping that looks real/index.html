@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Boatshop</title>
+    <link rel="stylesheet" href="css/log.css">
+  </head>
+  <body>
+
+
+<div class="box">
+  <a onclick="changecolor('red')" id="red">#ff1919</a>
+  <a onclick="changecolor('blue')" id="blue">	#0080ff</a>
+  <a onclick="changecolor('green')" id="green">#4ca64c</a>
+  <a onclick="changecolor('orange')" id="orange">#ffc04c</a>
+  <a onclick="changecolor('grey')" id="grey">#a6a6a6</a>
+  </div>
+<script type="text/javascript">
+
+  function changecolor(id) {
+    document.body.style.background = document.getElementById(id).innerHTML;
+  }
+</script>
+<script src="js/login.js"></script>
+<center>
+<h2>Boatshop login page</h2>
+
+   <form name="formName" action="boatshop.html" onsubmit="return checkPass()" >
+                  <p>User: <input type="user"  name="username"></p>
+                   <p>Pass: <input type="password"  name="password"></p>
+  								 <p id="passStatus">  </p>
+  								  <input type="submit" value="Submit">
+  								</form>
+
+</center>
+
+  </body>
+</html>
